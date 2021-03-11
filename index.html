@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+
+    <portrait-screen>
+
+      <div class="page" id="page1">
+        <circle-loader></circle-loader>
+      </div>
+      <div class="page" id="page2">
+        <div class="title-area">
+          <div id="game-title">
+            <div id="tic"><b>TIC</b></div>
+            <div id="tac"><b>TAC</b></div>
+            <div id="toe"><b>TOE</b></div>
+          </div>
+        </div>
+        <div class="play-area">
+          <div id="play-button"><span>PLAY</span></div>
+        </div>
+      </div>
+      <div class="page" id="page2-5">
+        <div class="option">
+          <div id="multiplayer-option">
+            Multiplayer
+          </div>
+          <div id="computer-option">
+            Computer
+          </div>
+        </div>
+      </div>
+      <div class="page" id="page2-7-5">
+        <div class="notice-field">* Please fill out the fields below!</div>
+        <div class="form">
+          <div class="player-name" id="player1">Player1's name :</div><input id="text1" type="text">
+          <div class="player-name" id="player2">Player2's name :</div><input id="text2" type="text">
+          <button class="submit">Submit</button>
+        </div>
+      </div>
+      <div class="page" id="page3">
+        <div class="place3-in-a-row">
+          <div class="close">x</div>
+          <div class="center-area">
+            <div class="notice">PLACE 3 IN A ROW!</div>
+            <div class="box-parent">
+              <div class="box1"><span class="x">X</span></div>
+              <div class="box2"><span class="x">X</span></div>
+              <div class="box3"></div>
+              <div class="box4"></div>
+              <div class="box5"></div>
+              <div class="box6"></div>
+              <div class="box7"></div>
+              <div class="box8"></div>
+              <div class="box9"><span class="x">X</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="confirm" id="play-again">
+          <div class="left-area">
+            <div class="yes">YES</div>
+          </div>
+          <div class="right-area">
+            <div class="no">NO</div>
+          </div>
+          <div class="q">Play again?</div>
+        </div>
+        <div class="status"><div id="status-text"></div></div>
+        <div class="turn"><span id="whos-turn"></span></div>
+        <div class="box">
+          <div><span id="box1"></span></div>
+          <div><span id="box2"></span></div>
+          <div><span id="box3"></span></div>
+          <div><span id="box4"></span></div>
+          <div><span id="box5"></span></div>
+          <div><span id="box6"></span></div>
+          <div><span id="box7"></span></div>
+          <div><span id="box8"></span></div>
+          <div><span id="box9"></span></div>
+        </div>
+        <div class="back-button"><div><span id="onclick-span">Back to Menu</span></div></div>
+      </div>
+      
+    </portrait-screen>
+
+    <script src="assets/js/muhammad_amirul_haq_library.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
